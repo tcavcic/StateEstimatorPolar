@@ -1,0 +1,4401 @@
+#LyX 2.5 created this file. For more info see https://www.lyx.org/
+\lyxformat 643
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{etex}
+\usepackage{xcolor}
+\usepackage{rotating}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{cmap}
+\usepackage[croatian]{babel}
+\usepackage{siunitx}
+\usepackage[unicode,hidelinks=true]{hyperref}
+\usepackage{amscd}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{hhline}
+\usepackage{enumerate}
+\usepackage{delarray}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage[bf,font=small]{caption}
+\usepackage[labelfont=small,font=small]{subcaption}
+\usepackage{wasysym}
+\usepackage{subeqnarray}
+\usepackage{pdflscape}
+\usepackage{enumitem}
+\usepackage[toc,page]{appendix}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\usepackage{makeidx}
+\usepackage{nomencl}
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily,breaklines=true}
+\usepackage{courier}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{wrapfig}
+\usepackage[square,numbers,sort]{natbib}
+\numberwithin{equation}{section}
+
+\definecolor{codebg}{rgb}{0.96,0.96,0.96}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codeblue}{rgb}{0.0,0.0,0.6}
+\definecolor{codegreen}{rgb}{0.0,0.5,0.0}
+
+\lstdefinestyle{cppstyle}{
+    language=C++,
+    backgroundcolor=\color{codebg},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{codeblue}\bfseries,
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codegreen},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4,
+    frame=single,
+    rulecolor=\color{codegray}
+}
+\lstset{style=cppstyle}
+
+\pagestyle{fancy}
+\fancyhf{}                          
+\fancyfoot[R]{\thepage}              
+\renewcommand{\headrulewidth}{0pt}  
+\renewcommand{\footrulewidth}{0pt}
+
+\addto\captionscroatian{%
+  \renewcommand{\bibname}{Literatura}
+  \renewcommand{\tablename}{Tabela}
+  \renewcommand{\nomname}{Popis oznaka}
+  \renewcommand{\indexname}{Indeks pojmova}
+  \renewcommand{\lstlistingname}{Program}
+  \renewcommand{\figurename}{Slika}
+}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children no
+\language bosnian
+\language_package default
+\inputencoding utf8
+\fontencoding auto
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "default" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\float_alignment class
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification default
+\crossref_package refstyle
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\backgroundcolor none
+\fontcolor none
+\notefontcolor lightgray
+\boxbgcolor red
+\table_border_color default
+\table_odd_row_color default
+\table_even_row_color default
+\table_alt_row_colors_start 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\docbook_mathml_version 0
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+vspace*{-1cm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+textsc{
+\backslash
+Large Univerzitet u Sarajevu}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+textsc{
+\backslash
+Large Elektrotehnički fakultet}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+textsc{
+\backslash
+Large Odsjek za Automatiku i elektroniku}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+vspace{3.4cm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+textsc{
+\backslash
+Large Seminarski rad}
+\backslash
+
+\backslash
+[0.4cm]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+{
+\backslash
+huge 
+\backslash
+bfseries Estimacija stanja - polarne koordinate} 
+\backslash
+
+\backslash
+[0.4cm] 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+vspace{1cm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+textsc{
+\backslash
+Large Predmet:}
+\backslash
+
+\backslash
+[0.4cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+textsc{
+\backslash
+fontsize{14}{15}
+\backslash
+selectfont Strukture i režimi rada elektroenergetskih sistema}
+\backslash
+
+\backslash
+[1.5cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+vspace{4.1cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+begin{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+Large Student:
+ 
+\backslash
+
+\backslash
+[0.4cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+textbf{
+\backslash
+Large Čavčić Tajra (19677)}
+\backslash
+
+\backslash
+[0.4cm]  
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+vfill
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{flushright}
+\end_layout
+
+\begin_layout Plain Layout
+{
+\backslash
+large Sarajevo,
+ jul 2026.g.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+pagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+pagestyle{fancy}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Uvod
+\end_layout
+
+\begin_layout Standard
+\noindent
+Pouzdan rad elektroenergetskog sistema zahtijeva kontinuirano poznavanje njegovog trenutnog radnog stanja.
+ Iako savremeni sistemi raspolažu velikim brojem mjernih uređaja,
+ nije moguće direktno izmjeriti sve veličine koje opisuju stanje mreže.
+ Osim toga,
+ stvarna mjerenja neizbježno sadrže slučajne greške,
+ a pojedina mjerenja mogu biti nedostupna ili nepouzdana.
+ Zbog toga se u upravljanju elektroenergetskim sistemima primjenjuje estimacija stanja,
+ koja na osnovu redundantnog skupa mjerenja određuje najvjerovatnije vrijednosti varijabli stanja sistema.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Problem estimacije stanja formuliše se kao problem optimizacije u kojem se minimizira odstupanje između izmjerenih i proračunatih vrijednosti električnih veličina.
+ U praksi se najčešće primjenjuje metoda otežanih najmanjih kvadrata (
+\emph on
+Weighted Least Squares
+\emph default
+ - WLS),
+ pri čemu se različitim mjerenjima dodjeljuju težinski faktori u skladu s njihovom tačnošću.
+ Budući da su funkcije mjerenja nelinearne u odnosu na varijable stanja,
+ rješenje se određuje iterativnim postupcima,
+ pri čemu se najčešće koristi Gauss–Newton algoritam zasnovan na linearizaciji mjernih jednačina pomoću matrice Jakobijana.
+\end_layout
+
+\begin_layout Standard
+\noindent
+U ovom radu razvijena je aplikacija za estimaciju stanja elektroenergetskog sistema u polarnim koordinatama.
+ GUI (
+\emph on
+Graphical User Interface
+\emph default
+) aplikacije razvijen je korištenjem razvojnog okruženja 
+\series bold
+natID
+\series default
+,
+ dok su za implementaciju algoritma estimacije korištene klase i funkcionalnosti biblioteke 
+\series bold
+natID
+\series default
+ za rad s matricama i izvođenje matričnih operacija.
+ Varijable stanja predstavljaju module napona i fazne uglove napona svih čvorova,
+ pri čemu se referentni čvor definiše poznatim uglom napona.
+ Aplikacija omogućava učitavanje podataka o mreži i raspoloživim mjerenjima,
+ formiranje nelinearnog modela mjerenja,
+ izračunavanje Jakobijeve matrice,
+ iterativno rješavanje WLS problema te prikaz procijenjenih vrijednosti napona i faznih uglova nakon konvergencije algoritma.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Projekat je dostupan na linku:
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+https://github.com/tcavcic/SREES_2026_Cavcic_StateEstimatorPolar
+\end_layout
+
+\end_inset
+
+ .
+ Podrazumijeva se instaliran natID,
+ CMake,
+ te VisualStudio.
+ Projekat se pokreće putem CMake-a.
+\end_layout
+
+\begin_layout Standard
+\noindent
+U nastavku izvještaja prikazana je struktura aplikacije,
+ matematički model estimacije stanja,
+ opis implementiranog algoritma,
+ te rezultati testiranja i uputstvo za korištenje aplikacije.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Struktura aplikacije 
+\end_layout
+
+\begin_layout Standard
+\noindent
+Aplikacija je razvijena korštenjem 
+\series bold
+natID
+\series default
+ i njena organizacija objašnjena je u nastavku Aplikacija se sastoji od sljedćih glavnih cjelina:
+ ulazne tačke aplikacije,
+ glavnog prozora sa tri taba,
+ sloja za pristup bazi podataka (
+\family typewriter
+SQLite
+\family default
+) i klase 
+\family typewriter
+StateEstimator
+\family default
+ koja implementira algoritam estimacije stanja.
+ Struktura projekta prikazana je na sljedećoj slici:
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Struktura aplikacije
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/tree.JPG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Aplikacija se pokreće kroz standardni 
+\family typewriter
+main()
+\family default
+,
+ koji kreira instancu klase 
+\family typewriter
+Application
+\family default
+ (naslijeđena od 
+\family typewriter
+gui::Application
+\family default
+) i poziva 
+\family typewriter
+app.init("BA")
+\family default
+ (odabir jezika/lokalizacije) i 
+\family typewriter
+app.run()
+\family default
+.
+ Klasa 
+\family typewriter
+Application
+\family default
+ je zadužena samo za kreiranje početnog prozora 
+\end_layout
+
+\begin_layout Standard
+\noindent
+(
+\family typewriter
+MainWindow
+\family default
+) preko metode 
+\family typewriter
+createInitialWindow()
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\noindent
+Organizacija projekta 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+\series bold
+MainWindow
+\family default
+\series default
+ predstavlja glavni prozor aplikacijea koji sadrži
+\family typewriter
+ MainView
+\family default
+,
+ što je kompozitni 
+\emph on
+view
+\emph default
+ koji spaja 
+\family typewriter
+ViewWithTabs
+\family default
+ i dugme 
+\family typewriter
+'Estimiraj Stanje'
+\family default
+ u vertikalnom rasporedu (
+\family typewriter
+VerticalLayout
+\family default
+),
+ te 
+\family typewriter
+onClick
+\family default
+ rukovanje klikom na dugme za estimaciju,
+ koje delegira poziv metodi 
+\family typewriter
+estimateState()
+\family default
+ unutar 
+\family typewriter
+ViewWithTabs
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+\series bold
+ViewWithTabs
+\family default
+\series default
+ (naslijeđena od 
+\family typewriter
+gui::StandardTabView
+\family default
+) organizuje aplikaciju u tri logičke cjeline:
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\family typewriter
+ViewConfig
+\family default
+ (tab 
+\emph on
+Konfiguracija
+\emph default
+) - unos topologije mreže (čvorovi,
+ grane,
+ admitanse)
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\family typewriter
+ViewMeas
+\family default
+ (tab 
+\emph on
+Mjerenja
+\emph default
+) - unos i pregled mjerenja po čvorovima
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\family typewriter
+ViewResults
+\family default
+ (tab 
+\emph on
+Rezultati
+\emph default
+) - prikaz statusa i rezultata estimacije
+\end_layout
+
+\begin_layout Standard
+\noindent
+Kada korisnik promijeni konfiguraciju mreže,
+ 
+\family typewriter
+ViewConfig
+\family default
+ putem callback funkcije 
+\end_layout
+
+\begin_layout Standard
+\noindent
+(
+\family typewriter
+setConfigChangedCallback
+\family default
+) obavještava
+\family typewriter
+ ViewWithTabs
+\family default
+,
+ koji zatim osvježava listu čvorova u tabu za mjerenja (
+\family typewriter
+refreshViewMeas()
+\family default
+).
+ Pritiskom na 
+\family typewriter
+'Estimiraj Stanje' 
+\family default
+dugme poziva se 
+\family typewriter
+estimateState()
+\family default
+,
+ koji pokreće proračun i automatski prebacuje fokus
+\family typewriter
+ 
+\family default
+na tab 
+\emph on
+Rezultati
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+\series bold
+ViewConfig
+\family default
+\series default
+ (tab 
+\emph on
+Konfiguracija
+\emph default
+) omogućava definisanje elektroenergetske mreže pomoću:
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\family typewriter
+ConnectionView
+\family default
+ - odabir čvorova "od" i "do" za granu,
+ uz opcije unosa elemenata matrice pi ekvivalenta grane u polarnom obliku (
+\begin_inset Formula $|Y|$
+\end_inset
+
+,
+\begin_inset Formula $\phi$
+\end_inset
+
+) ili preko simetrične admitanse (
+\begin_inset Formula $Zs$
+\end_inset
+
+,
+ 
+\begin_inset Formula $Ysh$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\family typewriter
+MatrixView
+\family default
+ - unos elemenata pi ekvivalenta grane (
+\begin_inset Formula $y11$
+\end_inset
+
+,
+ 
+\begin_inset Formula $y12$
+\end_inset
+
+,
+ 
+\begin_inset Formula $y21$
+\end_inset
+
+,
+ 
+\begin_inset Formula $y22$
+\end_inset
+
+,
+ 
+\begin_inset Formula $y0$
+\end_inset
+
+) ili,
+ alternativno,
+ serijske impedanse i poprečne admitanse za simetrične grane.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\family typewriter
+NodesView
+\family default
+ - definisanje broja čvorova i njihovog tipa (
+\begin_inset Formula $PQ$
+\end_inset
+
+,
+ 
+\begin_inset Formula $PV$
+\end_inset
+
+,
+ 
+\begin_inset Formula $SLACK$
+\end_inset
+
+) preko tabele pregleda čvorova.
+\end_layout
+
+\begin_layout Standard
+Svi uneseni podaci (čvorovi i grane) se direktno upisuju u 
+\family typewriter
+SQLite
+\family default
+ bazu (
+\family typewriter
+Baza.db
+\family default
+),
+ u tabele 
+\family typewriter
+Nodes
+\family default
+ i 
+\family typewriter
+Branches
+\family default
+,
+ uz validacije (npr.
+ sprečavanje duplih grana,
+ sprečavanje promjene tipa čvora ako već postoje mjerenja za taj čvor).
+ Kreiranje šeme baze (tabele 
+\family typewriter
+Nodes
+\family default
+,
+ 
+\family typewriter
+Branches
+\family default
+ i 
+\family typewriter
+Measurements
+\family default
+) je isključivo odgovornost 
+\family typewriter
+ViewConfig::initDB()
+\family default
+.
+ 
+\family typewriter
+ViewMeas
+\family default
+ pri konstrukciji samo otvara konekciju na već postojeću bazu i pretpostavlja da je 
+\family typewriter
+ViewConfig
+\family default
+ prethodno inicijalizovao šemu.
+ Ova zavisnost je osigurana redoslijedom deklaracije članova unutar 
+\family typewriter
+ViewWithTabs
+\family default
+,
+ pošto se 
+\family typewriter
+C++
+\family default
+ članovi konstruišu tim redoslijedom.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+\series bold
+ViewMeas
+\series default
+ 
+\family default
+(tab 
+\emph on
+Mjerenja
+\emph default
+) drži master konekciju na 
+\family typewriter
+SQLite 
+\family default
+bazu (
+\family typewriter
+Baza.db
+\family default
+),
+ koja se dijeli sa 
+\family typewriter
+ViewResults
+\family default
+ (metoda 
+\family typewriter
+setDatabase
+\family default
+),
+ čime se osigurava da 
+\family typewriter
+INSERT
+\family default
+ i 
+\family typewriter
+SELECT
+\family default
+ operacije prolaze kroz istu konekciju i da se promjene odmah odražavaju u tabelama 
+\end_layout
+
+\begin_layout Standard
+\noindent
+(
+\family typewriter
+TableEdit::reload()
+\family default
+).
+ Mjerenja se unose pojedinačno i nezavisno od tipa čvora 
+\end_layout
+
+\begin_layout Standard
+\noindent
+(
+\begin_inset Formula $PQ/PV/SLACK$
+\end_inset
+
+):
+ za svako mjerenje korisnik bira čvor,
+ tip mjerenja (
+\family typewriter
+P
+\family default
+ ili 
+\family typewriter
+Q
+\family default
+ injekcija,
+ 
+\family typewriter
+|V|
+\family default
+,
+ ili 
+\family typewriter
+P
+\family default
+ odnosno 
+\family typewriter
+Q
+\family default
+ tok snage kroz granu),
+ te vrijednost i sigmu.
+ Za mjerenja toka snage dodatno se prikazuje polje 
+\family typewriter
+Do čvora
+\family default
+,
+ koje se dinamički pojavljuje odnosno sakriva zavisno od odabranog tipa mjerenja.
+ Ovakav pristup dozvoljava unos više različitih,
+ pa i redundantnih,
+ mjerenja na istom čvoru (npr.
+ istovremeno 
+\family typewriter
+P/Q
+\family default
+ injekcija i naponsko mjerenje),
+ kao i unos mjerenja toka snage,
+ koja u ranijoj verziji aplikacije nisu bila podržana.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+\series bold
+ViewResults
+\family default
+\series default
+ (tab 
+\emph on
+Rezultati
+\emph default
+) koristi zajedničku konekciju na bazu proslijeđenu iz 
+\family typewriter
+ViewMeas
+\family default
+.
+ Sadrži tri pod-taba,
+ svaki sa vlastitom tabelom rezultata:
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+BusResultsView
+\family default
+ (pod-tab 
+\emph on
+Stanja čvorova
+\emph default
+) - stanja čvorova (
+\begin_inset Formula $V$
+\end_inset
+
+,
+ 
+\begin_inset Formula $\phi$
+\end_inset
+
+,
+ 
+\begin_inset Formula $P$
+\end_inset
+
+,
+ 
+\begin_inset Formula $Q$
+\end_inset
+
+),
+ tabela 
+\family typewriter
+BusResults
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+BranchResultsView
+\family default
+ (pod-tab 
+\emph on
+Tokovi u granama
+\emph default
+) - tokovi snage kroz grane (
+\begin_inset Formula $Pij$
+\end_inset
+
+,
+\begin_inset Formula $Qij$
+\end_inset
+
+,
+ 
+\begin_inset Formula $Pji$
+\end_inset
+
+,
+ 
+\begin_inset Formula $Qji$
+\end_inset
+
+),
+ tabela 
+\family typewriter
+BranchResults
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+MeasResultsView
+\family default
+ (pod-tab 
+\emph on
+Reziduali
+\emph default
+) - reziduali mjerenja (izmjerena / estimirana vrijednost),
+ tabela 
+\family typewriter
+MeasResults
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Nakon svake estimacije,
+ ove tabele se brišu i ponovo pune novim rezultatima,
+ a status estimacije (konvergencija,
+ broj iteracija,
+ greška) se prikazuje u tekstualnom log polju.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Klasa 
+\family typewriter
+StateEstimator
+\family default
+ je odvojena od GUI sloja i komunicira s ostatkom aplikacije isključivo preko:
+\end_layout
+
+\begin_layout Standard
+\noindent
+ulaza:
+ pokazivača na 
+\family typewriter
+dp::IDatabase
+\family default
+ (za čitanje topologije i mjerenja),
+\end_layout
+
+\begin_layout Standard
+\noindent
+izlaza:
+ javnih struktura 
+\family typewriter
+BusResult
+\family default
+,
+ 
+\family typewriter
+BranchResult
+\family default
+,
+ 
+\family typewriter
+MeasResidual
+\family default
+ i javnih atributa
+\end_layout
+
+\begin_layout Standard
+\noindent
+(
+\family typewriter
+iterCount
+\family default
+,
+ 
+\family typewriter
+finalError
+\family default
+,
+ 
+\family typewriter
+logMsg
+\family default
+).
+ Ova jasna granica omogućava da se algoritam estimacije razvija i testira nezavisno od korisničkog interfejsa.
+ Tip čvora (
+\family typewriter
+PQ,
+ PV,
+ SLACK
+\family default
+) definisan u tabeli 
+\family typewriter
+Nodes
+\family default
+ koristi se u 
+\family typewriter
+StateEstimator
+\family default
+-u isključivo za identifikaciju referentnog (
+\family typewriter
+SLACK
+\family default
+) čvora,
+ čiji je fazni ugao fiksiran na 0 i koji nije dio vektora stanja.
+ Razlika između 
+\family typewriter
+PQ
+\family default
+ i 
+\family typewriter
+PV
+\family default
+ čvorova ne utiče na sam proračun niti ograničava koja se mjerenja mogu unijeti na datom čvoru.
+ U pristupu zasnovanom na estimaciji stanja metodom WLS,
+ sve veličine koje nisu eksplicitno mjerene tretiraju se kao nepoznate.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Algoritam implementiran unutar ove klase opisan je u nastavku izvještaja.
+ 
+\end_layout
+
+\begin_layout Subsection
+Struktura baze podataka
+\end_layout
+
+\begin_layout Standard
+Baza podataka 
+\family typewriter
+Baza.db
+\family default
+ (
+\family typewriter
+SQLite
+\family default
+) sastoji se od šest tabela:
+ tri ulazne,
+ koje opisuju topologiju mreže i raspoloživa mjerenja,
+ i tri izlazne,
+ u koje se upisuju rezultati estimacije stanja nakon svakog pokretanja proračuna.
+ Njihova struktura opisana je u nastavku.
+ Pri prvom preuzimanju aplikacije,
+ baza podataka je popunjena na osnovu Zadatka 3 Laboratorijske vježbe 5.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+begin{table}[h!]
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+caption{Struktura tabele 
+\backslash
+texttt{Nodes}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+label{tab:nodes}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+begin{tabularx}{
+\backslash
+textwidth}{|l|l|X|}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+textbf{Kolona} & 
+\backslash
+textbf{Tip} & 
+\backslash
+textbf{Opis} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+node
+\backslash
+_id   & INTEGER PRIMARY KEY & Identifikator čvora 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+node
+\backslash
+_type & TEXT NOT NULL       & Tip čvora:
+ 
+\backslash
+texttt{PQ},
+ 
+\backslash
+texttt{PV} ili 
+\backslash
+texttt{SLACK} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{tabularx}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+begin{table}[h!]
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+caption{Struktura tabele 
+\backslash
+texttt{Branches}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+label{tab:branches}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+begin{tabularx}{
+\backslash
+textwidth}{|l|l|X|}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+textbf{Kolona} & 
+\backslash
+textbf{Tip} & 
+\backslash
+textbf{Opis} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+id        & INTEGER PRIMARY KEY AUTOINCREMENT & Identifikator grane 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+from
+\backslash
+_node & INTEGER NOT NULL & FK $
+\backslash
+rightarrow$ Nodes.node
+\backslash
+_id 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+to
+\backslash
+_node   & INTEGER NOT NULL & FK $
+\backslash
+rightarrow$ Nodes.node
+\backslash
+_id 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+y11
+\backslash
+_r,
+ y11
+\backslash
+_phi & REAL & Modul/ugao $y_{11}$ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+y12
+\backslash
+_r,
+ y12
+\backslash
+_phi & REAL & Modul/ugao $y_{12}$ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+y21
+\backslash
+_r,
+ y21
+\backslash
+_phi & REAL & Modul/ugao $y_{21}$ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+y22
+\backslash
+_r,
+ y22
+\backslash
+_phi & REAL & Modul/ugao $y_{22}$ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+y0
+\backslash
+_r,
+ y0
+\backslash
+_phi   & REAL & Modul/ugao $y_0$ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{tabularx}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+begin{table}[h!]
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+caption{Struktura tabele 
+\backslash
+texttt{Measurements}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+label{tab:measurements}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+begin{tabularx}{
+\backslash
+textwidth}{|l|l|X|}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+textbf{Kolona} & 
+\backslash
+textbf{Tip} & 
+\backslash
+textbf{Opis} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+id         & INTEGER PRIMARY KEY AUTOINCREMENT & Identifikator mjerenja 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+node
+\backslash
+_id    & INTEGER NOT NULL & FK $
+\backslash
+rightarrow$ Nodes.node
+\backslash
+_id 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+meas
+\backslash
+_type  & TEXT NOT NULL    & Tip mjerenja:
+ 
+\backslash
+texttt{P}/
+\backslash
+texttt{P
+\backslash
+_INJ},
+ 
+\backslash
+texttt{Q}/
+\backslash
+texttt{Q
+\backslash
+_INJ},
+ 
+\backslash
+texttt{P
+\backslash
+_FLOW},
+ 
+\backslash
+texttt{Q
+\backslash
+_FLOW},
+ 
+\backslash
+texttt{V}/
+\backslash
+texttt{V
+\backslash
+_MAG} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+meas
+\backslash
+_index & INTEGER NOT NULL & Za 
+\backslash
+texttt{P
+\backslash
+_FLOW}/
+\backslash
+texttt{Q
+\backslash
+_FLOW}:
+ identifikator odredišnog čvora grane.
+ Za ostale tipove:
+ redni broj mjerenja tog tipa na datom čvoru (dozvoljava više redundantnih mjerenja) 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+value      & REAL NOT NULL    & Izmjerena vrijednost 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+sigma      & REAL             & Standardna devijacija mjerenja (težina u WLS proračunu je $1/
+\backslash
+sigma^2$).
+ Kolona nije obavezan dio osnovne šeme;
+ ako ne postoji ili je unesena vrijednost $
+\backslash
+le 0$,
+ StateEstimator koristi podrazumijevanu vrijednost $
+\backslash
+sigma = 1$ za dato mjerenje 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{tabularx}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+begin{table}[h!]
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+caption{Struktura tabele 
+\backslash
+texttt{BusResults}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+label{tab:busresults}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+begin{tabularx}{
+\backslash
+textwidth}{|l|l|X|}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+textbf{Kolona} & 
+\backslash
+textbf{Tip} & 
+\backslash
+textbf{Opis} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+node
+\backslash
+_id   & INTEGER & Identifikator čvora 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+node
+\backslash
+_type & TEXT    & 
+\backslash
+texttt{SLACK} ili 
+\backslash
+texttt{PQ} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+V         & REAL    & Modul napona 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+phi
+\backslash
+_deg   & REAL    & Fazni ugao napona [°] 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+P         & REAL    & Injektirana aktivna snaga 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+Q         & REAL    & Injektirana reaktivna snaga 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{tabularx}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage nopagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+begin{table}[h]
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+caption{Struktura tabele 
+\backslash
+texttt{BranchResults}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+label{tab:branchresults}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+begin{tabularx}{
+\backslash
+textwidth}{|l|l|X|}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+textbf{Kolona} & 
+\backslash
+textbf{Tip} & 
+\backslash
+textbf{Opis} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+from
+\backslash
+_bus & INTEGER & Čvor "from" 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+to
+\backslash
+_bus   & INTEGER & Čvor "to" 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+Pij,
+ Qij & REAL & Tok aktivne/reaktivne snage,
+ from $
+\backslash
+rightarrow$ to 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+Pji,
+ Qji & REAL & Tok aktivne/reaktivne snage,
+ to $
+\backslash
+rightarrow$ from 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{tabularx}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage nopagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+begin{table}[h]
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+caption{Struktura tabele 
+\backslash
+texttt{MeasResults}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+label{tab:measresults}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+begin{tabularx}{
+\backslash
+textwidth}{|l|l|X|}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+textbf{Kolona} & 
+\backslash
+textbf{Tip} & 
+\backslash
+textbf{Opis} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+meas
+\backslash
+_type & TEXT    & Tip mjerenja (
+\backslash
+texttt{P
+\backslash
+_INJ},
+ 
+\backslash
+texttt{Q
+\backslash
+_INJ},
+ 
+\backslash
+texttt{P
+\backslash
+_FLOW},
+ 
+\backslash
+texttt{Q
+\backslash
+_FLOW},
+ 
+\backslash
+texttt{V
+\backslash
+_MAG}) 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+from
+\backslash
+_bus  & INTEGER & Čvor $i$ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+to
+\backslash
+_bus    & INTEGER & Čvor $j$ (-1 za nodalna mjerenja) 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+measured  & REAL    & Izmjerena vrijednost $z_m$ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+estimated & REAL    & Estimirana vrijednost $h_m(x)$ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+residual  & REAL    & Rezidual $r_m = h_m(x) - z_m$ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{tabularx}
+\end_layout
+
+\begin_layout Plain Layout
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+Algoritam estimacije stanja 
+\end_layout
+
+\begin_layout Standard
+Estimacija stanja implementirana je u klasi 
+\family typewriter
+StateEstimator
+\family default
+ kao 
+\series bold
+nelinearni WLS
+\series default
+ (
+\emph on
+Weighted Least Squares
+\emph default
+) 
+\series bold
+estimator
+\series default
+ zasnovan na 
+\series bold
+Gauss-Newton metodi
+\series default
+,
+ u 
+\series bold
+polarnim koordinatama
+\series default
+.
+ Algoritam je potpuno odvojen od korisničkog interfejsa i komunicira s ostatkom aplikacije isključivo preko baze podataka (ulaz:
+ topologija i mjerenja) i javnih struktura rezultata (izlaz).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\emph on
+Napomena:
+ 
+\emph default
+Jacobian 
+\begin_inset Formula $H$
+\end_inset
+
+ se nikad ne formira eksplicitno,
+ već za svako mjerenje se računa samo lista nenultih parova 
+\begin_inset Formula $(kolona,vrijednost)$
+\end_inset
+
+ tog reda,
+ koja se odmah kumulativno dodaje u gain-matricu i RHS vektor,
+ 
+\begin_inset Formula $G\mathrel{+}=H^{\top}_{m,\cdot}w_{m}H_{m,\cdot}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $g\mathrel{+}=H^{\top}_{m,\cdot}w_{m}r_{m}$
+\end_inset
+
+,
+ čime se izbjegava alokacija pune 
+\begin_inset Formula $M\times n$
+\end_inset
+
+ matrice.
+ Matrica 
+\begin_inset Formula $Y_{bus}$
+\end_inset
+
+ implementirana je kao gusta (
+\emph on
+dense
+\emph default
+) matrica,
+ jer joj se pristupa punim redovima pri računanju injektiranih snaga.
+ Gain-matrica 
+\begin_inset Formula $G=H^{\top}WH$
+\end_inset
+
+ implementirana je kao rijetka (
+\emph on
+sparse
+\emph default
+) matrica,
+ budući da je njena rijetkost direktna posljedica rijetkosti 
+\begin_inset Formula $H$
+\end_inset
+
+.
+ Pošto je 
+\begin_inset Formula $G$
+\end_inset
+
+ po konstrukciji simetrična i pozitivno (semi)definitna,
+ za njeno rješavanje korištena je 
+\begin_inset Formula $LDL^{\top}$
+\end_inset
+
+ faktorizacija (
+\family typewriter
+sparse::SolverType::LDLT,
+ Symmetry::SymmetricPosDef
+\family default
+).
+\end_layout
+
+\begin_layout Subsection
+Vektor stanja
+\end_layout
+
+\begin_layout Standard
+Za mrežu sa 
+\begin_inset Formula $N$
+\end_inset
+
+ čvorova,
+ vektor stanja 
+\begin_inset Formula $x$
+\end_inset
+
+ je definisan kao:
+\begin_inset Formula 
+\begin{equation}
+x=\big[\varphi_{1},\varphi_{2},\ldots,\varphi_{N-1},V_{0},V_{1},\ldots,V_{N-1}\big]^{T}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+odnosno sadrži 
+\begin_inset Formula $N-1$
+\end_inset
+
+ faznih uglova i 
+\begin_inset Formula $N$
+\end_inset
+
+ napona,
+ pa je ukupan broj nepoznatihn_
+\begin_inset Formula $x=(N-1)+N=2N-1$
+\end_inset
+
+.
+ Fazni ugao referentnog (
+\begin_inset Formula $slack$
+\end_inset
+
+) čvora fiksiran je na 
+\begin_inset Formula $\varphi_{\text{slack}}=0$
+\end_inset
+
+ i nije deo vektora stanja.
+ Preslikavanje indeksa čvora 
+\begin_inset Formula $k$
+\end_inset
+
+ na poziciju u vektoru stanja realizovano je preko pomoćnih funkcija 
+\family typewriter
+phiIdx(k)
+\family default
+ i 
+\family typewriter
+vIdx(k)
+\family default
+,
+ pri čemu je slack čvor izuzet iz mape uglova (
+\family typewriter
+buildPhiMap()
+\family default
+).
+\end_layout
+
+\begin_layout Subsection
+Admitansna matrica sistema
+\end_layout
+
+\begin_layout Standard
+Svaka grana 
+\begin_inset Formula $(i,j)$
+\end_inset
+
+ opisana je pi ekvivalentom,
+ koji dozvoljava nesimetrične admitanse (bitno za transformatore sa faznim pomakom ili opštim 
+\emph on
+off-nominal
+\emph default
+ odnosom):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+I_{i}=y_{11}V_{i}+y_{12}V_{j} & I_{j}=y_{21}V_{i}+y_{22}V_{j}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Sve admitanse se čuvaju u 
+\series bold
+polarnom
+\series default
+ obliku,
+ 
+\begin_inset Formula $y=|y|\angle\theta$
+\end_inset
+
+.
+ Jedino mjesto gdje se privremeno prelazi u pravougaoni oblik je kod sastavljanja admitansne matrice sistema.
+ Efektivni sopstveni članovi uključuju polovinu poprečne (shunt) admitanse grane $y_0$:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula 
+\[
+y^{\text{eff}}_{ii}=y_{ii}+\frac{y_{0}}{2}
+\]
+
+\end_inset
+
+Za svaku granu 
+\begin_inset Formula $(i,j)$
+\end_inset
+
+ doprinosi se sabiraju (pravougaono,
+ pa se odmah vraćaju u polarni oblik):
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula 
+\begin{align*}
+Y_{ii}\mathrel{+}=y^{\text{eff}}_{11} & Y_{jj}\mathrel{+}=y^{\text{eff}}_{22}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula 
+\begin{align*}
+Y_{ij}\mathrel{+}=y_{12} & Y_{ji}\mathrel{+}=y_{21}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Rezultujuća matrica se čuva kao dvije 
+\begin_inset Formula $N\times N$
+\end_inset
+
+ matrice (jedna matrica za modul,
+ jedna matrica za ugao)u polarnom obliku:
+\begin_inset Formula 
+\[
+Y_{\text{bus}}[i,j]=y_{ij}\angle\theta_{ij}=|Y_{ij}|\angle\arg(Y_{ij})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Funkcije mjerenja
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Pomoćne funkcije 
+\series default
+služe za efikasnije izračunavanje članova nelinearnih funkcija mjerenja,
+ a definisane su sa:
+\begin_inset Formula 
+\[
+Pt(y,\theta,d)=y\cos(d-\theta)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Qt(y,\theta,d)=y\sin(d-\theta)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Funkcija injektovane aktivne snage 
+\series default
+u čvor 
+\begin_inset Formula $i$
+\end_inset
+
+ data je sa:
+ 
+\begin_inset Formula 
+\[
+r_{i_{P}}(v,\varphi)=v^{2}_{i}y_{ii}\cos(\theta_{ii})+v_{i}\sum^{n}_{j=1,\,j\ne i}y_{ij}v_{j}\cos(\varphi_{i}-\theta_{ij}-\varphi_{j})-\hat{p}_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Funkcija injektovane reaktivne snage 
+\series default
+u čvor 
+\begin_inset Formula $i$
+\end_inset
+
+ data je sa:
+ 
+\begin_inset Formula 
+\[
+r_{i_{Q}}(v,\varphi)=-v^{2}_{i}y_{ii}\sin(\theta_{ii})+v_{i}\sum^{n}_{j=1,\,j\ne i}y_{ij}v_{j}\sin(\varphi_{i}-\theta_{ij}-\varphi_{j})-\hat{q}_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+gdje su 
+\begin_inset Formula $y_{ii}\angle\theta_{ii}$
+\end_inset
+
+ i 
+\begin_inset Formula $y_{ij}\angle\theta_{ij}$
+\end_inset
+
+ elementi 
+\begin_inset Formula $Y_{\text{bus}}$
+\end_inset
+
+ matrice,
+ 
+\begin_inset Formula $\hat{p}_{i}$
+\end_inset
+
+ i
+\begin_inset Formula $\hat{q}_{i}$
+\end_inset
+
+ izmjerene vrijednosti,
+ a 
+\begin_inset Formula $n$
+\end_inset
+
+ ukupan broj čvorova.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Funkcija toka aktivne snage 
+\series default
+kroz granu 
+\begin_inset Formula $(i,j)$
+\end_inset
+
+ data je sa:
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{ij_{P}}(v,\varphi)=v^{2}_{i}y^{(i\text{-}j)}_{ii}\cos(\theta^{(i\text{-}j)}_{ii})+v_{i}y^{(i\text{-}j)}_{ij}v_{j}\cos(\varphi_{i}-\theta^{(i\text{-}j)}_{ij}-\varphi_{j})-\hat{p}_{ij}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Funkcija toka aktivne snage 
+\series default
+kroz granu 
+\begin_inset Formula $(i,j)$
+\end_inset
+
+ data je sa:
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{ij_{Q}}(v,\varphi)=-v^{2}_{i}y^{(i\text{-}j)}_{ii}\sin(\theta^{(i\text{-}j)}_{ii})+v_{i}y^{(i\text{-}j)}_{ij}v_{j}\sin(\varphi_{i}-\theta^{(i\text{-}j)}_{ij}-\varphi_{j})-\hat{q}_{ij}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+gdje su 
+\begin_inset Formula $y^{(i\text{-}j)}_{ii}\angle\theta^{(i\text{-}j)}_{ii}$
+\end_inset
+
+ i 
+\begin_inset Formula $y^{(i\text{-}j)}_{ij}\angle\theta^{(i\text{-}j)}_{ij}$
+\end_inset
+
+ sopstveni i uzajamni admitantni član pi ekvivalenta grane 
+\begin_inset Formula $(i,j)$
+\end_inset
+
+ (gledano sa strane čvora 
+\begin_inset Formula $i$
+\end_inset
+
+),
+ 
+\begin_inset Formula $\hat{p}_{ij}$
+\end_inset
+
+ i 
+\begin_inset Formula $\hat{q}_{ij}$
+\end_inset
+
+ izmjerene vrijednosti,
+ a
+\begin_inset Formula $v_{i}$
+\end_inset
+
+
+\begin_inset Formula $,v_{j}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $\varphi_{\ensuremath{i}}$
+\end_inset
+
+ i 
+\begin_inset Formula $\varphi_{j}$
+\end_inset
+
+ moduli i uglovi napona na krajevima grane.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Funkcija modula napona 
+\series default
+čvora 
+\begin_inset Formula $i$
+\end_inset
+
+ data je sa:
+\begin_inset Formula 
+\[
+r_{i_{v}}(v,\varphi)=v_{i}-\hat{v_{i}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Jacobian
+\end_layout
+
+\begin_layout Standard
+Jacobian 
+\begin_inset Formula $H$
+\end_inset
+
+ se u implementaciji nikad ne formira kao puna gusta 
+\begin_inset Formula $M\times n$
+\end_inset
+
+ matrica.
+ Za svako mjerenje 
+\begin_inset Formula $m$
+\end_inset
+
+,
+ u trenutku računanja 
+\begin_inset Formula $h_{m}(x)$
+\end_inset
+
+,
+ generiše se samo lista nenultih parova,
+ jer red 
+\begin_inset Formula $m$
+\end_inset
+
+ Jacobiana ima nenulte elemente isključivo u kolonama koje odgovaraju uglu i naponu čvorova koji direktno učestvuju u toj mjernoj funkciji,
+ jer svaka mjerna funkcija zavisi samo od stanja u svojoj neposrednoj okolini,
+ pa je 
+\begin_inset Formula $H$
+\end_inset
+
+ izrazito rijetka (
+\emph on
+sparse
+\emph default
+) matrica.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $P_{\text{INJ}}$
+\end_inset
+
+ u čvoru
+\series bold
+ 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\series default
+za 
+\begin_inset Formula $l\ne i$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial h_{P_{i}}}{\partial\varphi_{l}}=V_{i}V_{l}Qt(y_{il},\theta_{il},\varphi_{i}-\varphi_{l}) & \ \frac{\partial h_{P_{i}}}{\partial V_{l}}=V_{i}Pt(y_{il},\theta_{il},\varphi_{i}-\varphi_{l})
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+za 
+\begin_inset Formula $l=i$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial h_{P_{i}}}{\partial\varphi_{i}}=-V_{i}\sum_{l\ne i}V_{l}Qt(y_{il},\theta_{il},\varphi_{i}-\varphi_{l})\  & \frac{\partial h_{P_{i}}}{\partial V_{i}}=\frac{h_{P_{i}}}{V_{i}}+V_{i}y_{ii}\cos\theta_{ii}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $Q_{\text{INJ}}$
+\end_inset
+
+ u čvoru
+\series bold
+ 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\series default
+za 
+\begin_inset Formula $l\ne i$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial h_{Q_{i}}}{\partial\varphi_{l}}=-V_{i}V_{l}Pt(y_{il},\theta_{il},\varphi_{i}-\varphi_{l}) & \ \frac{\partial h_{Q_{i}}}{\partial V_{l}}=V_{i}Qt(y_{il},\theta_{il},\varphi_{i}-\varphi_{l})
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+za 
+\begin_inset Formula $l=i$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial h_{Q_{i}}}{\partial\varphi_{i}}=V_{i}\sum_{l\ne i}V_{l}Pt(y_{il},\theta_{il},\varphi_{i}-\varphi_{l})\  & \frac{\partial h_{Q_{i}}}{\partial V_{i}}=\frac{h_{Q_{i}}}{V_{i}}-V_{i}y_{ii}\sin\theta_{ii}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $P_{\text{FLOW}}$
+\end_inset
+
+
+\series bold
+ 
+\series default
+kroz granu 
+\begin_inset Formula $(i,j)$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial h_{P_{ij}}}{\partial\varphi_{i}}=-V_{i}V_{j}Qt\  & \frac{\partial h_{P_{ij}}}{\partial\varphi_{j}}=V_{i}V_{j}Qt
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial h_{P_{ij}}}{\partial V_{i}}=2V_{i}y^{(i\text{-}j)}_{ii}\cos\theta^{(i\text{-}j)}_{ii}+V_{j}Pt\  & \frac{\partial h_{P_{ij}}}{\partial V_{j}}=V_{i}Pt
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $Q_{\text{FLOW}}$
+\end_inset
+
+
+\series bold
+ 
+\series default
+kroz granu 
+\begin_inset Formula $(i,j)$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial h_{Q_{ij}}}{\partial\varphi_{i}}=V_{i}V_{j}Pt\  & \frac{\partial h_{Q_{ij}}}{\partial\varphi_{j}}=-V_{i}V_{j}Pt
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial h_{Q_{ij}}}{\partial V_{i}}=-2V_{i}y^{(i\text{-}j)}_{ii}\sin\theta^{(i\text{-}j)}_{ii}+V_{j}Qt\  & \frac{\partial h_{Q_{ij}}}{\partial V_{j}}=V_{i}Qt
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+gdje je 
+\begin_inset Formula $d=\varphi_{i}-\varphi_{j}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $Qt=Qt(y^{(i\text{-}j)}_{ij},\theta^{(i\text{-}j)}_{ij},d)$
+\end_inset
+
+,
+ te 
+\begin_inset Formula $Pt$
+\end_inset
+
+ analogno 
+\begin_inset Formula $Qt$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $V_{\text{MAG}}$
+\end_inset
+
+ u čvoru 
+\begin_inset Formula $i$
+\end_inset
+
+:
+ 
+\begin_inset Formula 
+\[
+\frac{\partial h_{V_{i}}}{\partial V_{i}}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Gauss-Newton iteracija
+\end_layout
+
+\begin_layout Standard
+\noindent
+Neka je 
+\begin_inset Formula $M$
+\end_inset
+
+ broj mjerenih varijabli,
+ 
+\begin_inset Formula $z_{m}$
+\end_inset
+
+ izmjerena vrijednost,
+ 
+\begin_inset Formula $\sigma_{m}$
+\end_inset
+
+ standardna devijacija mjernog instrumenta,
+ i težina 
+\begin_inset Formula $w_{m}=\frac{1}{\sigma^{2}_{m}}$
+\end_inset
+
+,
+ odakle je matrica 
+\begin_inset Formula $W=diag(w_{1},\dots,w_{M})$
+\end_inset
+
+.
+ Rezidual mjerenja 
+\begin_inset Formula $m$
+\end_inset
+
+ dat je sa 
+\begin_inset Formula $r_{m}(x)=h_{m}(x)-z_{m}$
+\end_inset
+
+,
+ u skladu sa funkcijama iz prethodnih poglavlja.
+ Jacobian mjerenja je oblika 
+\begin_inset Formula $H\in\mathbb{R}^{M\times n}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $H_{m,\bullet}=\nabla_{x}h_{m}(x)$
+\end_inset
+
+ čiji su elementi dati u prethodnoj sekciji.
+ Jedna iteracija algoritma opisana je sa:
+\begin_inset Formula 
+\[
+G(x)=H^{\top}WH
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+g(x)=H^{\top}Wr(x)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+G(x)\Delta x=g(x)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+što se po 
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ rješava LDLT faktorizacijom,
+ odakle se dobije:
+\begin_inset Formula 
+\[
+x^{(k+1)}=x^{(k)}-\Delta x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Te se iterativni postupak ponavlja dok se ne dostigne konergencija,
+ opisana sa:
+\begin_inset Formula 
+\[
+\max_{i}|\Delta x_{i}|<\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+ili dok se ne dosegne maksimalan broj iteracija.
+ Korišteno je 
+\begin_inset Formula $\varepsilon=10^{-6}$
+\end_inset
+
+ i 
+\begin_inset Formula $maxiter$
+\end_inset
+
+= 50.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $G$
+\end_inset
+
+ je po konstrukciji simetrična i pozitivno semidefinitna,
+ odnosno pozitivno definitna ako je sistem observabilan,
+ zbog čega se rješava rijetkim 
+\begin_inset Formula $LDL^{\top}$
+\end_inset
+
+ 
+\emph on
+solverom.
+
+\emph default
+ Potreban uslov observabilnosti je 
+\begin_inset Formula $M\ge n_{x}=2N-1$
+\end_inset
+
+.
+ Ako faktorizacija ili rješavanje sistema u nekoj iteraciji ne uspiju (npr.
+ singularna gain matrica usljed neobservabilnosti),
+ estimacija se prekida uz odgovarajuću poruku greške.
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Post-processing
+\end_layout
+
+\begin_layout Standard
+Za svaku granu računaju se tokovi sa oba kraja,
+ koristeći istu formulu kao za 
+\begin_inset Formula $P_{\text{FLOW}}/Q_{\text{FLOW}}$
+\end_inset
+
+ mjerenja,
+ jednom sa 
+\begin_inset Formula $(i,j)$
+\end_inset
+
+ kao referentnim parom,
+ jednom sa 
+\begin_inset Formula $(j,i)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{ij}=V^{2}_{i}Y_{11}\cos\Theta_{11}+V_{i}V_{j}Y_{12}\cos(\varphi_{i}-\varphi_{j}-\Theta_{12})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Q_{ij}=-V^{2}_{i}Y_{11}\sin\Theta_{11}+V_{i}V_{j}Y_{12}\sin(\varphi_{i}-\varphi_{j}-\Theta_{12})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+P_{ji}=V^{2}_{j}Y_{22}\cos\Theta_{22}+V_{j}V_{i}Y_{21}\cos(\varphi_{j}-\varphi_{i}-\Theta_{21})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q_{ji}=-V^{2}_{j}Y_{22}\sin\Theta_{22}+V_{j}V_{i}Y_{21}\sin(\varphi_{j}-\varphi_{i}-\Theta_{21})
+\]
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Snaga u čvoru računa se preko iste formule kao
+\begin_inset Formula $P_{\text{INJ}}/Q_{\text{INJ}}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{k}=V_{k}\sum_{l}V_{l}y_{kl}\cos(\varphi_{k}-\theta_{kl}-\varphi_{l})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Q_{k}=V_{k}\sum_{l}V_{l}y_{kl}\sin(\varphi_{k}-\theta_{kl}-\varphi_{l})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Korištenje aplikacije
+\end_layout
+
+\begin_layout Standard
+U nastavku su prikazani tabovi unutar aplikacije,
+ sa objašnjenjem funkcionalnosti.
+\end_layout
+
+\begin_layout Subsection
+Tab 
+\emph on
+Konfiguracija
+\end_layout
+
+\begin_layout Standard
+Pri pokretanju aplikacije otvara se tab 
+\emph on
+Konfiguracija
+\emph default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "KonfiguracijaTab"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+.
+ On omogućava unos broja čvorova,
+ te tipa pojedinačnih čvorova označenih unutar tabele Čvorovi.
+ Dalje omogućava unos i brisanje veza između čvorova u obliku po ekvivalenta,
+ pri čemu je po defualtu odabran unos nesimetrične admitansne matrice i to u polarnom obliku.
+ Na slikama 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "KonfiguracijaTabSimPol"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ i 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "KonfiguracijaTabSimNepol"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ prikazan je unos parametara za simetričan pi ekvivalent,
+ te je na slici 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "KonfiguracijaTabY0"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ prikazan unos shunt admitanse vezan na čvor,
+ pri čemu se njegov unos omogućava odabirom istih Od i Do čvorova.
+ Na slici 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "DuplaVeza"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ prikazana je greška zbog pokušaja unosa druge veze između čvorova između kojih već postoji veza (Dupla Veza).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tab 
+\emph on
+Konfiguracija
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "KonfiguracijaTab"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/KonfigTab.JPG
+	lyxscale 75
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tab 
+\emph on
+Konfiguracija
+\emph default
+ - unos simetrične 
+\begin_inset Formula $Y$
+\end_inset
+
+ u polarnim koordinatama
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "KonfiguracijaTabSimPol"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/KonfigTabSimPol.JPG
+	lyxscale 65
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tab 
+\emph on
+Konfiguracija
+\emph default
+ - unos simetrične 
+\begin_inset Formula $Y$
+\end_inset
+
+ u pravougaonim koordinatama
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "KonfiguracijaTabSimNepol"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/KonfigTabSimNepol.JPG
+	lyxscale 65
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tab 
+\emph on
+Konfiguracija 
+\emph default
+- unos 
+\begin_inset Formula $y_{0}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+ 
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "KonfiguracijaTabY0"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/KonfigTabY0.JPG
+	lyxscale 75
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tab 
+\emph on
+Konfiguracija
+\emph default
+ - greška duple veze
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "DuplaVeza"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/DuplaVeza.JPG
+	lyxscale 65
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tab 
+\emph on
+Mjerenja
+\end_layout
+
+\begin_layout Standard
+Tab 
+\emph on
+Mjerenja 
+\emph default
+omogućava unos pojedinačnih mjerenja,
+ i to uz odabir tipa (
+\begin_inset Formula $P/Q$
+\end_inset
+
+ injektovano,
+ 
+\begin_inset Formula $P/Q$
+\end_inset
+
+ tok i 
+\begin_inset Formula $|V|$
+\end_inset
+
+),
+ te brisanje uz selekciju na tabeli prikaza svih mjerenja.
+ Na slici 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "MjerenjaTab"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ prikazan je izgled pri unosu injektovane snage,
+ gdje je 
+\family typewriter
+Do čvora
+\family default
+ polje za unos onemogućeno,
+ te je na slici 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "MjerenjaTabFlow"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ prikazano gdje je to polje za ounos omogućeno jer se unosi mjerenja toka snage.
+ Po defaultu,
+ vrijednosti sigme postavljena je na 
+\begin_inset Formula $1.0$
+\end_inset
+
+,
+ pri čemu ukoliko se ta vrijednost promijeni,
+ novounesena vrijednost sigme se zadržava i za sljedeće mjerenje kako bi se unos podataka olakšao.
+ Na slici 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "MjerenjaTabLog"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ prikazan je prozor u kojom se ispsiuju poruke prema korisniku o unesenim mjerenjima.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Log taba 
+\emph on
+Mjerenja
+\end_layout
+
+\end_inset
+
+
+\emph on
+ 
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "MjerenjaTabLog"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/MeasLog.JPG
+	lyxscale 75
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tab 
+\emph on
+Mjerenja
+\end_layout
+
+\end_inset
+
+
+\emph on
+ 
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "MjerenjaTab"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/MeasTab.JPG
+	lyxscale 75
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tab 
+\emph on
+Mjerenja 
+\emph default
+- omogućen unos 'Do čvora'
+\end_layout
+
+\end_inset
+
+
+\emph on
+ 
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "MjerenjaTabFlow"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/MeasTabFlow.JPG
+	lyxscale 75
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tab 
+\emph on
+Rezultati
+\end_layout
+
+\begin_layout Standard
+Tab 
+\emph on
+Rezultati 
+\emph default
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "ResTab"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+ omogućava prikaz estimacije stanja
+\emph on
+.
+ 
+\emph default
+On sadrži tri pod-taba radi preglednosti podataka,
+ prikazanih na slikama 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "ResTab1,ResTab2,ResTab3"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+.
+ U logu ovog taba daje se izvještaj o statusu estimacije (da li je došlo do konvergencije,
+ dostupni podaci,
+ broj iteracija,
+ konačna greška) što je prikazano na slici 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "ResTabLog"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+tuple "list"
+
+\end_inset
+
+.
+ Estimacija se pokreće klikom na dugme 
+\family typewriter
+'Estimiraj stanje' 
+\family default
+koje je dostupno iz svakog taba.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tab 
+\emph on
+Rezultati
+\end_layout
+
+\end_inset
+
+
+\emph on
+ 
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ResTab"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/EstTab.JPG
+	lyxscale 75
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Log taba 
+\emph on
+Rezultati
+\emph default
+ 
+\end_layout
+
+\end_inset
+
+
+\emph on
+ 
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ResTabLog"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/EstLog.JPG
+	lyxscale 75
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tab 
+\emph on
+Rezultati
+\emph default
+ - prikaz stanja čvorova
+\end_layout
+
+\end_inset
+
+
+\emph on
+ 
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ResTab1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/EstTabStanja.JPG
+	lyxscale 75
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tab 
+\emph on
+Rezultati
+\emph default
+ - prikaz tokova u granama
+\end_layout
+
+\end_inset
+
+
+\emph on
+ 
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ResTab2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/EstTabTokovi.JPG
+	lyxscale 75
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment center
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tab 
+\emph on
+Rezultati
+\emph default
+ - prikaz reziduala
+\end_layout
+
+\end_inset
+
+
+\emph on
+ 
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ResTab3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/cavci/Desktop/seminarskiSREES/EstTabResiduali.JPG
+	lyxscale 75
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Zaključak
+\end_layout
+
+\begin_layout Standard
+\noindent
+U okviru ovog seminarskog rada razvijena je desktop aplikacija za estimaciju stanja elektroenergetskog sistema u polarnim koordinatama,
+ zasnovana na metodi otežanih najmanjih kvadrata (
+\emph on
+Weighted Least Squares
+\emph default
+) i Gauss–Newton iterativnom postupku.
+ Implementacija je realizovana korištenjem razvojnog okruženja natID,
+ pri čemu su korisnički interfejs,
+ baza podataka i algoritam estimacije organizovani u odvojene cjeline,
+ što omogućava jednostavnije održavanje i daljnji razvoj aplikacije.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Aplikacija omogućava definisanje topologije elektroenergetske mreže,
+ unos različitih tipova mjerenja,
+ automatsko formiranje admitansne matrice sistema,
+ izvođenje iterativnog postupka estimacije te prikaz procijenjenih stanja čvorova,
+ tokova snaga i reziduala mjerenja.
+ Posebna pažnja posvećena je efikasnoj implementaciji algoritma korištenjem rijetkih matrica i LDLT faktorizacije,
+ čime je smanjena memorijska složenost i ubrzano rješavanje sistema jednačina.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Razvijena aplikacija predstavlja funkcionalan alat za demonstraciju principa estimacije stanja u elektroenergetskim sistemima i može poslužiti kao osnova za daljnja proširenja.
+ Moguća unapređenja uključuju implementaciju detekcije i eliminacije loših mjerenja (
+\emph on
+Bad Data Detection
+\emph default
+),
+ podršku za trofazne elektroenergetske mreže,
+ kao i povezivanje sa standardnim formatima podataka koji se koriste u elektroenergetskoj praksi.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Realizacijom ovog projekta stečeno je praktično iskustvo u implementaciji numeričkih algoritama,
+ radu sa bazama podataka,
+ razvoju grafičkih korisničkih interfejsa i primjeni metoda estimacije stanja u elektroenergetskim sistemima,
+ čime su objedinjena teorijska znanja iz oblasti elektroenergetike i razvoja softverskih rješenja.
+\end_layout
+
+\end_body
+\end_document
