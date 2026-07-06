@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<DevRes>
+    <Images>
+        <Res id="rect12" path="Common/Icons/Rectangle_12.png"/>
+    </Images>
+    <Texts>
+        <Res id="infoTxt" path=":texts/Info.txt"/>
+    </Texts>
+    <FileNames>
+        <Res id="Baza.db" path=":DB/Baza.db"/>
+    </FileNames>
+</DevRes>
